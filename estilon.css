@@ -1,0 +1,133 @@
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+}	
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+div#general{
+	margin: auto;
+	margin-top: 50px;
+	width: 960px;
+	height: 800px;
+	background-color: #092327;
+}
+/*---------- principal caja-------------*/
+div#liDer{
+	
+	float: right;
+	width: 660px;
+	height: 730px;
+	background-color: #B8C8DA ;
+}
+div#dirTitulon{
+	text-align: center;
+}
+
+.cuadrado{
+	width: 200px;
+	height: 200px;
+	
+	margin-left: 15px;
+	display: inline-block;
+}
+.cuadrado p{
+	text-align: justify;
+
+}
+
+/*---------- principal caja-------------*/
+
+div#liIzq{
+
+	float: left;
+	width: 300px;
+	height: 730px;
+	background-color: #99B196;
+}
+.menubar{
+list-style: none;
+padding: 0;
+background: #092327;
+width: 90%;
+max-width: 1000px;
+margin: auto;
+}
+.menubar li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menubar li{
+	display: inline-block;
+	text-align: center;
+}
+.menubar li a:hover{
+	background: #ef8254;
+}
+
+
+.menuIzq{
+list-style: none;
+padding: 0;
+
+width: 90%;
+/*max-width: 1000px;*/
+max-height: 1000px;
+margin: auto;
+
+}
+.menuIzq li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menuIzq li{
+	margin-top: 50px;
+	display: list-item;
+	text-align: left;
+	background-color: #899987;
+}
+.menuIzq li a:hover{
+	background: #ef8254;
+}
+
+.cuadrado2{
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.cuadrado2 p{
+	text-align: center;
+	background-color: #ef8254;
+}
+
+/* imagenes 2 por 2*/
+
+.cuadrado3{
+
+	width: 250px;
+	height: 220px;
+	
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+/*mapas inicio*/
+
+#map {
+	height: 500px;
+	width: 100%;
+	
+}
+/*mapas fin*/
